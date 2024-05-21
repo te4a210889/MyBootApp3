@@ -24,7 +24,7 @@ public class HelloController
     @RequestMapping("/")
     public String index(Model model) {
         //return "this is Spring Boot sample.";
-        return "views";
+        return "index";
     }
 
 }
