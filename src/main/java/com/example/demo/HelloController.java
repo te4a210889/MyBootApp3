@@ -23,11 +23,11 @@ public class HelloController
         return "Miyagi desu!";
     }
 
-    @RequestMapping("/")
-    public String index(Model model) {
+   // @RequestMapping("/")
+   // public String index(Model model) {
         //return "this is Spring Boot sample.";
-        return "index";
-    }
+        //return "index";
+    //}
 
     @RequestMapping("/")
     public String index(Model model) {
